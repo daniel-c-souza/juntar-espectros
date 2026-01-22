@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.pytest_cache/
+.pyre/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+combinados
