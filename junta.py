@@ -96,7 +96,7 @@ df_combined = pd.concat([df_combined] + abs_data, axis=1)
 output_csv = os.path.join(CSV_DIR, f"{exp_name}_consolidado.csv")
 df_combined.to_csv(output_csv, index=False)
 print(f"\n✅ Arquivo consolidado salvo em: {output_csv}")
-
+df_combined.to_txt(output_csv, index=False, sep="\t", decimal=".")
 # -------------------------------
 # Gera e salva o gráfico em pasta separada
 # -------------------------------
